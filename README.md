@@ -22,8 +22,6 @@ Este proyecto aborda el pronóstico de la demanda semanal de órdenes para una c
 2. **Resampleo:** los datos son agregados semanalmente (‘W-MON’) utilizando el promedio.
 3. **Transformación logarítmica:** se aplica `np.log1p` para estabilizar la varianza.
 4. **Limpieza:**
-   - Se eliminan outliers extremos por percentil.
-   - Se interpolan valores nulos linealmente.
 5. **Variable objetivo final:** `Order_Demand_log` semanal, transformada con logaritmo.
 
 ---
@@ -80,6 +78,5 @@ Este proyecto aborda el pronóstico de la demanda semanal de órdenes para una c
 
 ## 😎 Autor
 
-Kevin G. — [LinkedIn / GitHub / Portafolio]
+Kevin Llanos
 
-> Proyecto parte de mi portafolio personal de ciencia de datos.
